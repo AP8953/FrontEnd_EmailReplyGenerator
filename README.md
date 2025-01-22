@@ -20,6 +20,8 @@ An AI-driven email reply generation system designed to automate email responses 
 
 This project enables users to generate email replies based on content and tone directly within Gmail. Leveraging **Google's Gemini API**, the system creates email responses that range from professional to casual. Users can seamlessly generate replies through a **Chrome extension**, which connects to a backend built with **Spring Boot** and a frontend built with **React**.
 
+Check out the live demo: [AI-Powered Email Reply Generator](https://email-reply-generator.netlify.app/)
+
 ## Features
 - AI-powered email reply generation.
 - Multiple tone options (Professional, Friendly, Casual).
@@ -120,11 +122,10 @@ The Chrome extension can be installed from the **Chrome Web Store** or loaded di
 
 ## Contributors
 
-- **[Your Name]** - Full-stack development, AI integration, Chrome extension
+- **Ashish Pratap** - Full-stack development, AI integration, Chrome extension
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-You can copy this directly into your README.md file for your GitHub project. Make sure to update any sections with your personal or specific details.
