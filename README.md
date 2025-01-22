@@ -90,3 +90,41 @@ The Chrome extension can be installed from the **Chrome Web Store** or loaded di
 3. Build the backend using Maven:
    ```bash
    mvn clean install
+   ```
+4. Create a Docker image for the Spring Boot application:
+   ```bash
+   docker build -t email-reply-generator-backend .
+   ```
+5. Run the Docker container:
+   ```bash
+   docker run -p 8080:8080 email-reply-generator-backend
+   ```
+
+### Frontend Setup:
+1. Navigate to the frontend directory.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the React development server:
+   ```bash
+   npm start
+   ```
+
+### Chrome Extension Setup:
+1. Open **chrome://extensions/** in your browser.
+2. Enable **Developer Mode**.
+3. Click **Load unpacked** and select the **extension** directory.
+
+---
+
+## Contributors
+
+- **[Your Name]** - Full-stack development, AI integration, Chrome extension
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+You can copy this directly into your README.md file for your GitHub project. Make sure to update any sections with your personal or specific details.
